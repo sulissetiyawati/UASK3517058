@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>Selectable</title>
+	<link href="jquery-ui.css" rel="stylesheet">
+  <style>
+  #feedback { font-size: 1.4em; }
+  #selectable .ui-selecting { background: #FECA40; }
+  #selectable .ui-selected { background: #F39814; color: white; }
+  #selectable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+  #selectable li { margin: 3px; padding: 0.4em; font-size: 1.4em; height: 18px; }
+  </style>
+  <script src="jquery.js"></script>
+	<script src="jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#selectable" ).selectable();
+  } );
+  </script>
+	
+ </head>
+<body>
+<br/>
+<br/>
+<h2>Manakah jenis kucing yang paling kamu sukai</h2>
+<br/>
+<ol id="selectable">
+  <li class="ui-widget-content" >American Bobtail</li>
+  <li class="ui-widget-content">American Curl</li>
+  <li class="ui-widget-content">Balinese</li>
+  <li class="ui-widget-content">Birman</li>
+  <li class="ui-widget-content">Himalaya</li>
+  <li class="ui-widget-content">Javanese</li>
+  <li class="ui-widget-content">Maine Coon</li>
+  <li class="ui-widget-content">Norwegian Forest Cat</li>
+  <li class="ui-widget-content">Persian</li>
+</ol>
+
+</body>
+</html>

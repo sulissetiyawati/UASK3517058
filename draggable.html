@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>Draggable</title>
+	<link href="jquery-ui.css" rel="stylesheet">
+      <style>
+  #draggable { width: 1020px; height: 700px; padding: 0.5em; background:url(img/dg.jpg)}
+  </style>
+	<script src="jquery.js"></script>
+	<script src="jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#draggable" ).draggable();
+  } );
+  </script>
+</head>
+<body>
+
+<div id="draggable" class="ui-widget-content">
+  <p>Drag me hooman!</p>
+</div>
+
+</body>
+</html>
